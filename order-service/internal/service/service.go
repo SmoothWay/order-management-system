@@ -6,16 +6,16 @@ import (
 	"github.com/SmoothWay/oms-order/internal"
 )
 
-type Service struct {
+type OrderService struct {
 	storage internal.OrdersStorage
 }
 
-func NewService(storage internal.OrdersStorage) *Service {
-	return &Service{
+func NewService(storage internal.OrdersStorage) *OrderService {
+	return &OrderService{
 		storage: storage,
 	}
 }
 
-func (s *Service) CreateOrder(ctx context.Context) error {
+func (s *OrderService) CreateOrder(ctx context.Context) error {
 	return nil
 }
