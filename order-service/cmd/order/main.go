@@ -5,10 +5,10 @@ import (
 	"log"
 	"net"
 
-	"github.com/SmoothWay/commons"
 	grpchandler "github.com/SmoothWay/oms-order/internal/handler/grpc"
 	"github.com/SmoothWay/oms-order/internal/service"
 	"github.com/SmoothWay/oms-order/internal/storage"
+	"github.com/SmoothWay/oms/commons"
 	"google.golang.org/grpc"
 )
 

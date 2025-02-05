@@ -4,10 +4,10 @@ import (
 	"errors"
 	"log"
 
-	"github.com/SmoothWay/commons"
-	pb "github.com/SmoothWay/commons/api"
-	"github.com/gogo/status"
+	"github.com/SmoothWay/oms/commons"
+	pb "github.com/SmoothWay/oms/commons/api"
 	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc/status"
 
 	"net/http"
 )

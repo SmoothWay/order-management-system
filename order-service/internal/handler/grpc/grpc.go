@@ -4,8 +4,8 @@ import (
 	"context"
 	"log"
 
-	pb "github.com/SmoothWay/commons/api"
 	"github.com/SmoothWay/oms-order/internal/service"
+	pb "github.com/SmoothWay/oms/commons/api"
 	"github.com/google/uuid"
 	"google.golang.org/grpc"
 )

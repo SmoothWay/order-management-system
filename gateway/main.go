@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/SmoothWay/commons"
-	pb "github.com/SmoothWay/commons/api"
+	"github.com/SmoothWay/oms/commons"
+	pb "github.com/SmoothWay/oms/commons/api"
 	_ "github.com/joho/godotenv/autoload"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
